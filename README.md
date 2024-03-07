@@ -1,5 +1,5 @@
 # BÀI TẬP LỚN MÔN CÔNG NGHỆ PHẦN MỀM 
-**_THÀNH VIÊN: 2202267 Hồ Tú Minh, 22022585 Nguyễn Văn Hải, 22022534 Nguyễn Phan Hiển, 22022615 Đinh Văn Sinh_**
+**_THÀNH VIÊN: 2202267 Hồ Tú Minh, 22022595 Nguyễn Văn Hải, 22022534 Nguyễn Phan Hiển, 22022615 Đinh Văn Sinh_**
 
 # TỔNG QUAN DỰ ÁN 
 
