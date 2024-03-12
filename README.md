@@ -1,4 +1,4 @@
-# BÀI TẬP LỚN MÔN CÔNG NGHỆ PHẦN MỀM 
+# LearnEase
 **_THÀNH VIÊN: 2202267 Hồ Tú Minh, 22022595 Nguyễn Văn Hải, 22022534 Nguyễn Phan Hiển, 22022615 Đinh Văn Sinh_**
 
 # TỔNG QUAN DỰ ÁN 
