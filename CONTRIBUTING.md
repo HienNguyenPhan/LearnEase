@@ -14,7 +14,7 @@ Và nếu bạn thích dự án nhưng không có thời gian đóng góp thì c
 <!-- omit in toc -->
 ## Mục lục
 
-- [Quy tắc ứng xử](#Quy tắc ứng xử)
+- [Quy tắc ứng xử](#Quy-tắc-ứng-xử)
 - [Tôi có một câu hỏi](#i-have-a-question)
 - [Tôi muốn đóng góp](#i-want-to-contribute)
   - [Báo cáo lỗi](#reporting-bugs)
