@@ -1,53 +1,51 @@
 <!-- omit in toc -->
-# Contributing to LearnEase
+# Đóng góp cho LearnEase
 
-First off, thanks for taking the time to contribute! ❤️
+Trước hết, cảm ơn bạn đã dành thời gian đóng góp! ❤️
+ để biết các cách trợ giúp khác nhau và thông tin chi tiết về cách dự án này xử lý chúng. Vui lòng đảm bảo đọc phần liên quan trước khi đóng góp. Nó sẽ giúp những người bảo trì của chúng tôi dễ dàng hơn rất nhiều và mang lại trải nghiệm dễ dàng hơn cho tất cả những người liên quan. Cộng đồng rất mong nhận được sự đóng góp của bạn. 🎉
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
+Và nếu bạn thích dự án nhưng không có thời gian đóng góp thì cũng không sao. Có nhiều cách dễ dàng khác để hỗ trợ dự án và thể hiện sự đánh giá cao của bạn, điều mà chúng tôi cũng rất vui mừng:
 
-> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
-> - Star the project
-> - Tweet about it
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+> - Sao dự án
+> - Tweet về nó
+> - Giới thiệu dự án này trong readme dự án của bạn
+> - Đề cập đến dự án tại các cuộc gặp mặt ở địa phương và nói với bạn bè/đồng nghiệp của bạn
 
 <!-- omit in toc -->
-## Table of Contents
+## Mục lục
 
-- [Code of Conduct](#code-of-conduct)
-- [I Have a Question](#i-have-a-question)
-- [I Want To Contribute](#i-want-to-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Your First Code Contribution](#your-first-code-contribution)
-  - [Improving The Documentation](#improving-the-documentation)
-- [Styleguides](#styleguides)
-  - [Commit Messages](#commit-messages)
-- [Join The Project Team](#join-the-project-team)
-
-
-## Code of Conduct
-
-This project and everyone participating in it is governed by the
-[LearnEase Code of Conduct](https://github.com/HienNguyenPhan/LearnEaseblob/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior
-to <>.
+- [Quy tắc ứng xử](#code-of-conduct)
+- [Tôi có một câu hỏi](#i-have-a-question)
+- [Tôi muốn đóng góp](#i-want-to-contribute)
+  - [Báo cáo lỗi](#reporting-bugs)
+  - [Đề xuất cải tiến](#suggesting-enhancements)
+  - [Đóng góp mã đầu tiên của bạn](#your-first-code-contribution)
+  - [Cải thiện tài liệu](#improving-the-documentation)
+- [Hướng dẫn phong cách](#styleguides)
+  - [Tin nhắn cam kết](#commit-messages)
+- [Tham gia nhóm dự án](#join-the-project-team)
 
 
-## I Have a Question
+## Quy tắc ứng xử
 
-> If you want to ask a question, we assume that you have read the available [Documentation]().
+Dự án này và mọi người tham gia vào dự án này đều phải tuân theo
+[Quy tắc ứng xử của LearnEase](https://github.com/HienNguyenPhan/LearnEaseblob/CODE_OF_CONDUCT.md).
+Bằng cách tham gia, bạn phải tuân thủ quy tắc này. Vui lòng báo cáo hành vi không được chấp nhận cho <>.
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/HienNguyenPhan/LearnEase/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
-If you then still feel the need to ask a question and need clarification, we recommend the following:
+## Tôi có một câu hỏi
 
-- Open an [Issue](https://github.com/HienNguyenPhan/LearnEase/issues/new).
-- Provide as much context as you can about what you're running into.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+> Nếu bạn muốn đặt câu hỏi, chúng tôi coi như bạn đã đọc [Tài liệu]() có sẵn .
 
-We will then take care of the issue as soon as possible.
+Trước khi đặt câu hỏi, tốt nhất bạn nên tìm kiếm [Issues](https://github.com/HienNguyenPhan/LearnEase/issues) hiện có có thể giúp ích cho bạn. Trong trường hợp bạn đã tìm được vấn đề phù hợp mà vẫn cần làm rõ, bạn có thể viết câu hỏi của mình vào vấn đề này. Bạn cũng nên tìm kiếm câu trả lời trên Internet trước.
 
+Nếu sau đó bạn vẫn cảm thấy cần đặt câu hỏi và cần làm rõ, chúng tôi khuyên bạn nên làm như sau:
+
+- Mở một [Issue](https://github.com/HienNguyenPhan/LearnEase/issues/new).
+- Cung cấp càng nhiều ngữ cảnh càng tốt về những gì bạn đang gặp phải.
+- Cung cấp các phiên bản dự án và nền tảng (nodejs, npm, v.v.), tùy thuộc vào những gì có vẻ phù hợp.
+
+Sau đó chúng tôi sẽ xử lý vấn đề này càng sớm càng tốt.
 <!--
 You might want to create a separate issue tag for questions and include it in this description. People should then tag their issues accordingly.
 
@@ -63,97 +61,74 @@ Depending on how large the project is, you may want to outsource the questioning
 - Forum
 -->
 
-## I Want To Contribute
+## Tôi muốn đóng góp
 
-> ### Legal Notice <!-- omit in toc -->
-> When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
+> ### Thông báo pháp lý <!-- omit in toc -->
+> Khi đóng góp cho dự án này, bạn phải đồng ý rằng bạn là tác giả của 100% nội dung, rằng bạn có các quyền cần thiết đối với nội dung đó và nội dung bạn đóng góp có thể được cung cấp theo giấy phép dự án.
 
-### Reporting Bugs
-
-<!-- omit in toc -->
-#### Before Submitting a Bug Report
-
-A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
-
-- Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/HienNguyenPhan/LearnEaseissues?q=label%3Abug).
-- Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
-- Collect information about the bug:
-  - Stack trace (Traceback)
-  - OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
-  - Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant.
-  - Possibly your input and the output
-  - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
+### Báo cáo lỗi
 
 <!-- omit in toc -->
-#### How Do I Submit a Good Bug Report?
+#### Trước khi gửi báo cáo lỗi
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <22022595@vnu.edu.vn>.
+Một báo cáo lỗi tốt sẽ không khiến người khác phải theo dõi bạn để biết thêm thông tin. Do đó, chúng tôi yêu cầu bạn điều tra cẩn thận, thu thập thông tin và mô tả chi tiết vấn đề trong báo cáo của bạn. Vui lòng hoàn thành trước các bước sau để giúp chúng tôi khắc phục mọi lỗi tiềm ẩn nhanh nhất có thể.
+
+- Hãy chắc chắn rằng bạn đang sử dụng phiên bản mới nhất.
+- Xác định xem lỗi của bạn có thực sự là lỗi chứ không phải lỗi từ phía bạn, ví dụ: sử dụng các thành phần/phiên bản môi trường không tương thích (Đảm bảo rằng bạn đã đọc [tài liệu]() . Nếu bạn đang tìm kiếm hỗ trợ, bạn có thể muốn kiểm tra [phần này](#i-have-a-question)).
+- Để xem liệu những người dùng khác có gặp phải (và có khả năng đã giải quyết được) vấn đề tương tự như bạn đang gặp phải hay không, hãy kiểm tra xem hiện có báo cáo lỗi nào về lỗi hoặc lỗi của bạn trong  [ trình theo dõi lỗi](https://github.com/HienNguyenPhan/LearnEaseissues?q=label%3Abug).
+- Ngoài ra, hãy đảm bảo tìm kiếm trên Internet (bao gồm cả Stack Overflow) để xem liệu người dùng bên ngoài cộng đồng GitHub đã thảo luận về vấn đề này chưa.
+- Thu thập thông tin về lỗi:
+- Dấu vết ngăn xếp (Traceback)
+- Hệ điều hành, Nền tảng và Phiên bản (Windows, Linux, macOS, x86, ARM)
+- Phiên bản của trình thông dịch, trình biên dịch, SDK, môi trường thời gian chạy, trình quản lý gói, tùy thuộc vào những gì có vẻ liên quan.
+- Có thể là đầu vào và đầu ra của bạn
+- Bạn có thể tái tạo vấn đề một cách đáng tin cậy không? Và bạn cũng có thể sao chép nó với các phiên bản cũ hơn không?
+
+<!-- omit in toc -->
+#### Làm cách nào để gửi Báo cáo lỗi tốt?
+
+> Bạn không bao giờ được báo cáo các vấn đề, lỗ hổng hoặc lỗi liên quan đến bảo mật, bao gồm cả thông tin nhạy cảm cho bộ theo dõi vấn đề hoặc ở nơi khác một cách công khai. Thay vào đó, các lỗi nhạy cảm phải được gửi qua email tới <22022595@vnu.edu.vn>.
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
-We use GitHub issues to track bugs and errors. If you run into an issue with the project:
+Chúng tôi sử dụng các vấn đề của GitHub để theo dõi lỗi. Nếu bạn gặp sự cố với dự án:
 
-- Open an [Issue](https://github.com/HienNguyenPhan/LearnEase/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
-- Explain the behavior you would expect and the actual behavior.
-- Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
-- Provide the information you collected in the previous section.
+- Mở [Vấn đề](/issues/new). (Vì tại thời điểm này, chúng tôi không thể chắc chắn liệu đó có phải là lỗi hay không nên chúng tôi yêu cầu bạn chưa nói về lỗi và chưa dán nhãn vấn đề.)
+- Giải thích hành vi bạn mong đợi và hành vi thực tế.
+- Vui lòng cung cấp càng nhiều ngữ cảnh càng tốt và mô tả *các bước sao chép* mà người khác có thể làm theo để tự tạo lại vấn đề. Điều này thường bao gồm mã của bạn. Để có những báo cáo lỗi tốt, bạn nên tách biệt vấn đề và tạo ra một trường hợp thử nghiệm rút gọn.
+- Cung cấp những thông tin bạn đã thu thập ở phần trước.
 
-Once it's filed:
+Sau khi được nộp:
 
-- The project team will label the issue accordingly.
-- A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+- Nhóm dự án sẽ dán nhãn vấn đề tương ứng.
+- Một thành viên trong nhóm sẽ cố gắng tái hiện vấn đề bằng các bước bạn cung cấp. Nếu không có bước tái hiện hoặc không có cách rõ ràng để tái hiện vấn đề, nhóm sẽ yêu cầu bạn thực hiện các bước đó và đánh dấu vấn đề là `cần-repro`. Các lỗi có thẻ `needs-repro` sẽ không được xử lý cho đến khi chúng được sao chép.
+- Nếu nhóm có thể tái tạo sự cố, nó sẽ được đánh dấu là `cần-sửa`, cũng như có thể có các thẻ khác (chẳng hạn như `nghiêm trọng`) và vấn đề sẽ được để [do ai đó thực hiện](# đóng góp mã đầu tiên của bạn).
 
 <!-- You might want to create an issue template for bugs and errors that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
 
-### Suggesting Enhancements
+### Đề xuất cải tiến
 
-This section guides you through submitting an enhancement suggestion for LearnEase, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
-
-<!-- omit in toc -->
-#### Before Submitting an Enhancement
-
-- Make sure that you are using the latest version.
-- Read the [documentation]() carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](https://github.com/HienNguyenPhan/LearnEase/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
+Phần này hướng dẫn bạn gửi đề xuất nâng cao cho LearnEase, **bao gồm các tính năng hoàn toàn mới và các cải tiến nhỏ cho chức năng hiện có**. Việc làm theo những hướng dẫn này sẽ giúp người bảo trì và cộng đồng hiểu được đề xuất của bạn và tìm thấy các đề xuất liên quan.
 
 <!-- omit in toc -->
-#### How Do I Submit a Good Enhancement Suggestion?
+#### Trước khi gửi Bản nâng cao
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/HienNguyenPhan/LearnEase/issues).
+- Đảm bảo rằng bạn đang sử dụng phiên bản mới nhất.
+- Đọc kỹ [tài liệu]() và tìm hiểu xem chức năng này đã được bao gồm chưa, có thể bằng một cấu hình riêng lẻ.
+- Thực hiện [tìm kiếm](/vấn đề) để xem liệu cải tiến đã được đề xuất chưa. Nếu có, hãy thêm nhận xét cho vấn đề hiện có thay vì mở một vấn đề mới.
+- Tìm hiểu xem ý tưởng của bạn có phù hợp với phạm vi và mục tiêu của dự án hay không. Bạn có trách nhiệm phải đưa ra một lập luận thuyết phục để thuyết phục các nhà phát triển dự án về giá trị của tính năng này. Hãy nhớ rằng chúng tôi muốn các tính năng sẽ hữu ích cho đa số người dùng chứ không chỉ một nhóm nhỏ. Nếu bạn chỉ nhắm mục tiêu đến một số ít người dùng, hãy cân nhắc việc viết thư viện tiện ích bổ sung/plugin.
 
-- Use a **clear and descriptive title** for the issue to identify the suggestion.
-- Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
-- **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
-- **Explain why this enhancement would be useful** to most LearnEase users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+<!-- omit in toc -->
+#### Làm cách nào để gửi Đề xuất cải tiến tốt?
+
+Các đề xuất nâng cao được theo dõi dưới dạng [vấn đề GitHub](/vấn đề).
+
+- Sử dụng **tiêu đề rõ ràng và mang tính mô tả** cho vấn đề để xác định đề xuất.
+- Cung cấp **mô tả từng bước về tính năng nâng cao được đề xuất** càng chi tiết càng tốt.
+- **Mô tả hành vi hiện tại** và **giải thích hành vi nào bạn mong đợi thay vào đó** và lý do. Tại thời điểm này, bạn cũng có thể biết những lựa chọn thay thế nào không phù hợp với mình.
+- Bạn có thể muốn **bao gồm ảnh chụp màn hình và ảnh GIF động** để giúp bạn minh họa các bước hoặc chỉ ra phần liên quan đến đề xuất. Bạn có thể sử dụng [công cụ này](https://www.cockos.com/licecap/) để ghi ảnh GIF trên macOS và Windows và [công cụ này](https://github.com/colinkeenan/silentcast) hoặc [công cụ này công cụ](https://github.com/GNOME/byzanz) trên Linux. <!-- this should only be included if the project has a GUI -->
+- **Giải thích lý do cải tiến này sẽ hữu ích** đối với hầu hết người dùng LearnEase. Bạn cũng có thể muốn chỉ ra những dự án khác đã giải quyết nó tốt hơn và có thể đóng vai trò là nguồn cảm hứng.
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
-### Your First Code Contribution
-<!-- TODO
-include Setup of env, IDE and typical getting started instructions?
-
--->
-
-### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
-
--->
-
-## Styleguides
-### Commit Messages
-<!-- TODO
-
--->
-
-## Join The Project Team
-<!-- TODO -->
-
-<!-- omit in toc -->
-## Attribution
-This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
+### Đóng góp mã đầu tiên của bạn ### Cải thiện tài liệu ## Hướng dẫn về phong cách ### Thông báo cam kết
