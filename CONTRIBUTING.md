@@ -15,15 +15,13 @@ Và nếu bạn thích dự án nhưng không có thời gian đóng góp thì c
 ## Mục lục
 
 - [Quy tắc ứng xử](#Quy-tắc-ứng-xử)
-- [Tôi có một câu hỏi](#i-have-a-question)
-- [Tôi muốn đóng góp](#i-want-to-contribute)
-  - [Báo cáo lỗi](#reporting-bugs)
-  - [Đề xuất cải tiến](#suggesting-enhancements)
-  - [Đóng góp mã đầu tiên của bạn](#your-first-code-contribution)
-  - [Cải thiện tài liệu](#improving-the-documentation)
-- [Hướng dẫn phong cách](#styleguides)
-  - [Tin nhắn cam kết](#commit-messages)
-- [Tham gia nhóm dự án](#join-the-project-team)
+- [Tôi có một câu hỏi](#Tôi-có-một-câu-hỏi)
+- [Tôi muốn đóng góp](#Tôi-muốn-đóng-góp)
+  - [Báo cáo lỗi](#Báo-cáo-lỗi)
+  - [Đề xuất cải tiến](#Đề-xuất-cải-tiến)
+  - [Đóng góp mã đầu tiên của bạn](#Đóng-góp-mã-đầu-tiên-của-bạn)
+  - [Cải thiện tài liệu](#Cải-thiện-tài-liệu)
+- [Tham gia nhóm dự án](#Tham-gia-nhóm-dự-án)
 
 
 ## Quy tắc ứng xử
@@ -131,4 +129,20 @@ Các đề xuất nâng cao được theo dõi dưới dạng [vấn đề GitHu
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
-### Đóng góp mã đầu tiên của bạn ### Cải thiện tài liệu ## Hướng dẫn về phong cách ### Thông báo cam kết
+### Đóng góp mã đầu tiên của bạn
+<!-- TODO
+include Setup of env, IDE and typical getting started instructions?
+
+-->
+
+### Cải thiện tài liệu
+<!-- TODO
+Updating, improving and correcting the documentation
+
+-->
+
+
+## Tham gia nhóm dự án
+liên hệ với email : <22022595@vnu.edu.vn>
+
+
