@@ -39,3 +39,5 @@
 - **Nguyễn Văn Hải 22022595 làm tính năng chấm điểm và cho nhận xét bài làm**
 - **Nguyễn Phan Hiển 22022534**
 - **Đinh Văn Sinh 22022615 làm tính năng tạo bài kiểm tra cho học sinh**
+
+Link drive của báo cáo nhóm và video demo: https://drive.google.com/drive/folders/1MzrjsmhcKhDk1o0hoWRb89gJlEJwzer0?usp=sharing
