@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Grading Machine Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+
+        hr {
+            width: 50%;
+            margin: auto;
+            margin-bottom: 30px;
+            border: 1px solid #999;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            text-align: center;
+            margin-top: 30px;
+            color: #333;
+        }
+        
+        #comment-container {
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 80%;
+            max-width: 800px;
+            background-color: #f9f9f9;
+        }
+
+        .comment {
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Essay Grading Machine Learning</h1>
+    <hr>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label for="essay">Enter your essay:</label><br>
+        <input type="text" id="essay" name="essay" required><br>
+        <input type="submit" value="Submit"> 
+    </form>
+    {% if result %}
+        <div class="result">
+            <h2>The score of your essay: {{result}}</h2>
+            <br>
+            <div id="comment-container">
+                <h2>Comments on your essay:</h2>
+                <ul>
+                    {% for item in result2 %}
+                    <li>
+                        <p class="comment">
+                            {% if 'Task Achievement' in item %}
+                                <strong>{{ 'Task Achievement' }}</strong>: {{ item | slice:"16:" }}
+                            {% elif 'Coherence and Cohesion' in item %}
+                                <strong>{{ 'Coherence and Cohesion' }}</strong>: {{ item | slice:"25:" }}
+                            {% elif 'Lexical Resource' in item %}
+                                <strong>{{ 'Lexical Resource' }}</strong>: {{ item | slice:"17:" }}
+                            {% elif 'Grammatical Range and Accuracy' in item %}
+                                <strong>{{ 'Grammatical Range and Accuracy' }}</strong>: {{ item | slice:"30:" }}
+                            {% else %}
+                                {{ item }}
+                            {% endif %}
+                        </p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+        </div>
+    {% endif %}
+</body>
+</html>
