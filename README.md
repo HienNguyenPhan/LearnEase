@@ -25,17 +25,26 @@
 
 &emsp;**_4. Đưa ra nhận xét bài luận cho học sinh_**
 
+&emsp;&emsp;_- Công nghệ: Sử dụng framework Django để triển khai trang web. Đồng thời có một model machine learning và sử dụng API của Gemini.
+
+&emsp;&emsp;_- Khó khăn: Việc kết nối giữa API và front-end gặp rất nhiều khó khăn. Dataset vô cùng hạn chế về mặt dữ liệu nên mô hình học máy có độ chính xác không cao.
+
 **Vì sao dự án có giá trị?**
 - _Do khối lượng kiến thức mà ngày nay học sinh học rất lớn và sâu, tính năng tóm tắt văn bản sẽ giúp học sinh tiết kiệm được nhiều thời gian trong việc học và học hiệu quả hơn nhờ chỉ tập trung vào những kiến thức cốt lõi nhất_
 - _Ứng dụng giúp giáo viên hoặc người dùng có thể đánh giá và cung cấp phản hồi về bài làm của học sinh một cách dễ dàng và hiệu quả._
 - _Ứng dụng này được thiết kế để giúp nâng cao chất lượng giáo dục bằng cách cung cấp một công cụ linh hoạt và tiện lợi cho việc tạo ra bài kiểm tra đa dạng trong nhiều môn học khác nhau có chất lượng cao_
 
 ## CÁCH TẢI VÀ SỬ DỤNG APP
+- Hiện tại app mới chỉ chạy trên localhost
 
 ## CÁCH SỬ DỤNG APP 
+- Nhập đoạn văn bản bạn muốn đánh giá vào.
+- Bấm nút Grade
 
 ## CREDITS 
 - **Hồ Tú Minh 22022674 làm tính năng tóm tắt văn bản** 
 - **Nguyễn Văn Hải 22022595 làm tính năng chấm điểm và cho nhận xét bài làm**
-- **Nguyễn Phan Hiển 22022534**
+- **Nguyễn Phan Hiển 22022534 làm tính năng chấm điểm và nhận xét essay**
 - **Đinh Văn Sinh 22022615 làm tính năng tạo bài kiểm tra cho học sinh**
+
+Link drive của báo cáo nhóm và video demo: https://drive.google.com/drive/folders/1MzrjsmhcKhDk1o0hoWRb89gJlEJwzer0?usp=sharing
